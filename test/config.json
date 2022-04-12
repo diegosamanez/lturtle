@@ -1,0 +1,10 @@
+{
+    "pathSrc": {
+        "component_path": "./src/components",
+        "service_path": "./src/services",
+        "view_path": "./src/views",
+        "store_path": "./src/stores",
+        "router_path": "./src/routes"
+    },
+    "styleType": "scss"
+}

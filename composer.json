@@ -1,0 +1,30 @@
+{
+    "name": "agregalel/lturtle",
+    "description": "Laravel code generator and reactjs.",
+    "keywords": ["laravel", "reactjs", "generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Flores",
+            "email": "diegosamanez@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "symfony/console": "^4.0|^5.0|^6.0",
+        "symfony/process": "^4.2|^5.0|^6.0"
+    },
+    "bin": [
+        "bin/lturtle"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Agregalel\\Lturtle\\Console\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
