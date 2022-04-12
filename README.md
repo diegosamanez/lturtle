@@ -7,5 +7,5 @@ Getting Started
 ---------------
 
 ```
-$ composer global require agregalel/lturtle
+$ composer global require agregalel/lturtle:dev-main
 ```
