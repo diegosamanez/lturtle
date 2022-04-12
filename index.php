@@ -7,9 +7,6 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
 } else {
     require __DIR__.'/vendor/autoload.php';
 }
-
-require __DIR__.'/vendor/autoload.php';
-
 // switch($argv[1]){
 //     case 'generate':
 //         $generator = new Generator();
